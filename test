@@ -1,0 +1,9 @@
+echo $# $1 $2
+
+int1=$1
+int1=`expr $int1 + 1`
+
+int2=$2
+int2=$(($int2 - 2))
+
+echo $# $int1 $int2
